@@ -22,8 +22,8 @@ cin>>bc;
 bd=bb*bb-4*ba*bc;
 cout<<"this is your delta -> "<<bd<<"\n";
 if (bd>=0) {
-bx1=(-bb)+sqrt(bd)/(2*ba);
-bx2=(-bb)-sqrt(bd)/(2*ba);
+bx1=(-bb+sqrt(bd))/(2*ba);
+bx2=(-bb-sqrt(bd))/(2*ba);
 cout<<"this is x1 -> "<<bx1<<"\n this is your x2 -> "<<bx2;
 }
 else {
